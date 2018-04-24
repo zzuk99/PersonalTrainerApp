@@ -14,6 +14,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class CustomerListActivity extends AppCompatActivity {
+
     private ArrayList<Customer> customerArrayList = new ArrayList<Customer>();
     private ListView customerList;
     private CustomerListViewAdapter adapter;

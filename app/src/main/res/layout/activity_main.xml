@@ -7,6 +7,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.zzuk9.personaltrainerapp.MainActivity">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"/>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="321dp"
